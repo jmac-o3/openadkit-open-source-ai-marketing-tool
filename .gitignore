@@ -1,0 +1,45 @@
+node_modules
+.next
+out
+dist
+tsconfig.tsbuildinfo
+.env*
+!.env.example
+*.log
+.DS_Store
+.vercel
+.idea
+.vscode
+next-env.d.ts
+
+# Local data — your work lives here. Do not commit.
+data/snapshot.json
+data/snapshot.json.tmp
+data/sync.log
+.ados-sync.pid
+.ados-pids.txt
+scripts/output/
+
+# Planning + internal docs (do not publish)
+AdOS_PRD.md
+*.PRD.md
+NOTES.md
+TODO.md
+scratch/
+internal/
+AUDIT-*.md
+PRODUCT-AUDIT-*.md
+INSTALL-LAUNCH-*.md
+EXTERNAL-AUDIT-*.md
+TEST-SCENARIOS.md
+*.audit.md
+*.planning.md
+
+# Playwright artifacts
+test-results/
+playwright-report/
+.playwright/
+
+# Local dev server logs (created by manual next start)
+server.log
+server.err.log

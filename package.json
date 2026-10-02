@@ -1,0 +1,77 @@
+{
+  "name": "openadkit-open-source-ai-marketing-tool",
+  "version": "1.1.0",
+  "private": true,
+  "description": "OpenAdKit — open source AI marketing tool. Every ad platform, every AI provider (BYOK), runs in your browser, zero subscriptions. Built by Dicecodes.",
+  "license": "MIT",
+  "homepage": "https://github.com/IamRamgarhia/OpenAdKit-Open-Source-AI-Marketing-Tool",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IamRamgarhia/OpenAdKit-Open-Source-AI-Marketing-Tool.git"
+  },
+  "author": "Dicecodes <Contact@dicecodes.com>",
+  "keywords": [
+    "ai",
+    "ads",
+    "marketing",
+    "copywriting",
+    "open-source",
+    "byok",
+    "claude",
+    "openai",
+    "gemini",
+    "groq",
+    "google-ads",
+    "meta-ads",
+    "tiktok-ads",
+    "nextjs",
+    "browser-only"
+  ],
+  "scripts": {
+    "dev": "next dev -p 3005",
+    "sync": "node scripts/local-sync.cjs",
+    "start:all": "node scripts/run-all.cjs",
+    "prebuild": "node scripts/render-og.cjs",
+    "build": "next build",
+    "postbuild": "node scripts/sw-stamp.cjs",
+    "og:render": "node scripts/render-og.cjs",
+    "screenshots": "node scripts/capture-screenshots.cjs",
+    "setup:github": "node scripts/setup-github.cjs",
+    "models:check": "node scripts/check-models.cjs",
+    "start": "next start -p 3005",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:smoke": "playwright test tests/smoke.spec.ts --reporter=line",
+    "test:live": "playwright test tests/live.spec.ts --reporter=line"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "dexie": "4.0.8",
+    "dexie-react-hooks": "1.1.7",
+    "lucide-react": "0.441.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "2.5.2",
+    "zod": "^3.25.76",
+    "zustand": "4.5.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "20.16.5",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "8.4.45",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.5.4",
+    "vitest": "^2.1.9"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}

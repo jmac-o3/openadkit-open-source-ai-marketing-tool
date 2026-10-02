@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "OpenAdKit: Open Source AI Marketing Tool"
+message: "If you use OpenAdKit in research, education, or commercial work, please cite it."
+type: software
+authors:
+  - name: "Dicecodes"
+    email: "Contact@dicecodes.com"
+    website: "https://dicecodes.com"
+  - name: "OpenAdKit contributors"
+    website: "https://github.com/IamRamgarhia/OpenAdKit-Open-Source-AI-Marketing-Tool/graphs/contributors"
+repository-code: "https://github.com/IamRamgarhia/OpenAdKit-Open-Source-AI-Marketing-Tool"
+url: "https://github.com/IamRamgarhia/OpenAdKit-Open-Source-AI-Marketing-Tool"
+abstract: >
+  OpenAdKit is a browser-only, MIT-licensed AI marketing and advertising platform
+  that replaces a stack of $49–$499/month SaaS marketing tools (Jasper, AdCreative,
+  Anyword, Pencil, Copy.ai, Marpipe) with a single open-source app. Users bring
+  their own AI provider key — free tier (Groq, Cerebras, Gemini, OpenRouter) or
+  paid (Claude, OpenAI, Mistral, DeepSeek, Together AI) — and get 18 ad generators
+  across Google, Meta, TikTok, YouTube, LinkedIn and X, plus 11 optimization tools
+  (CTR optimizer, Quality Score improver, budget waste analyzer, ad fatigue
+  detector, and more), competitor research, brand intelligence, content calendars,
+  step-by-step launch guides for non-technical users, a provider comparison that
+  reports each AI's free-tier limits and measured cost, and a folder-portable data
+  layer. No backend, no telemetry, and no account is required.
+keywords:
+  - artificial-intelligence
+  - advertising
+  - marketing
+  - ai-marketing
+  - ad-generator
+  - copywriting
+  - google-ads
+  - meta-ads
+  - open-source
+  - byok
+  - browser-only
+  - nextjs
+  - typescript
+license: MIT
+version: "1.1.0"
+date-released: "2026-08-01"
